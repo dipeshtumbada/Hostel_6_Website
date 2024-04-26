@@ -1,0 +1,235 @@
+body, html {
+	font-family: 'Raleway', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	font-weight: 300;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+
+
+/* Navigation */
+
+
+
+#menu {
+	padding: 20px;
+	transition: all 0.8s;
+}
+#menu.navbar-default {
+    background-color: #262626 !important;
+	padding: 0 !important;
+	padding: 10px 0 !important;
+}
+#menu a.navbar-brand {
+	font-family: 'Dancing Script', cursive;
+	font-size: 36px;
+	color: #8eb640;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+#menu.navbar-default .navbar-nav > li > a {
+	text-transform: uppercase;
+	color: #ddd;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 5px 0;
+	border: 2px solid transparent;
+	letter-spacing: 0.5px;
+	margin: 10px 15px 0 15px;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+	color: #8eb640;
+}
+.on {
+	background-color: #262626 !important;
+	padding: 0 !important;
+	padding: 10px 0 !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #8eb640 !important;
+	background-color: transparent;
+}
+.navbar-toggle {
+	border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #8eb640;
+	border-color: #8eb640;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #FFF;
+}
+.section-title {
+	margin-bottom: 70px;
+}
+.section-title .overlay {
+	padding: 80px 0;
+	background: rgba(0, 0, 0, 0.7);
+}
+.section-title p {
+	font-size: 22px;
+	color: rgba(255,255,255,0.8);
+}
+.section-title hr {
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.btn-custom {
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #72a411;
+	border: 0;
+	padding: 14px 20px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	border-radius: 0;
+	margin-top: 20px;
+	transition: all 0.5s;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
+	color: #fff;
+	background-color: #628d0f;
+}
+
+
+
+/* Team Section */
+
+
+
+#team .team {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: centre; 
+}
+
+
+#team {
+	color: #fff;
+	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background-size: cover;
+}
+#team .overlay {
+	padding: 120px 0 80px 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+#team h2, #team p {
+	color: #fff;
+}
+#team hr {
+	background: #fff;
+}
+#team h3 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 5px 0;
+}
+#team img {
+	width: 280px;
+}
+
+#team .thumbnail {
+	background: transparent;
+	border: 0;
+}
+#team .thumbnail .team-img {
+	display: inline-block;
+	position: relative;
+}
+#team .thumbnail .team-img:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	bottom: 8px;
+	left: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#team .thumbnail .caption {
+	padding-top: 10px;
+}
+#team .thumbnail .caption p {
+	color: rgba(255,255,255,0.7);
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+
+
+/* Team Section */
+
+
+
+#team1 .team1 {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: centre; 
+}
+
+
+#team1 {
+	color: #fff;
+	background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
+	background-size: cover;
+}
+#team1 .overlay {
+	padding: -10px 0 80px 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+#team1 h2, #team1 p {
+	color: #fff;
+}
+#team1 hr {
+	background: #fff;
+}
+#team1 h3 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 20px;
+	margin: 5px 0;
+}
+#team1 img {
+	width: 300px;
+	height: 300px;
+}
+
+#team1 .thumbnail {
+	background: transparent;
+	border: 0;
+}
+#team1 .thumbnail .team1-img {
+	display: inline-block;
+	position: relative;
+}
+#team1 .thumbnail .team1-img:before {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	bottom: 8px;
+	left: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#team1 .thumbnail .caption {
+	padding-top: 10px;
+}
+#team1 .thumbnail .caption p {
+	color: rgba(255,255,255,0.7);
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
